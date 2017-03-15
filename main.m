@@ -38,7 +38,7 @@ figure(22)
 ssemlinear(20,1,20,1)%Provides exponential curve because there is no tapering off of linear curve!
 %% Simplified Smooth Eye Movement with Dynamic Gain (Target Velocity >> Eye Velocity)
 figure(23)
-ssem(20,5,20,1)%Accurrate!
+ssem(0.02,0.005,1000,1)%Accurrate!
 
 %% Simplified Smooth Eye Movement with Dynamic Gain (Target Velocity > Eye Velocity)
 figure(24)
@@ -46,5 +46,5 @@ ssem(10,5,20,1)%Accurrate!
 
 %% Simplified Smooth Eye Movement with Dynamic Gain (Target Velocity VARIABLE)
 figure(25)
-myssemta(20,5,20,1)
+myssemta(0.02,0.005,1000,1)
 
